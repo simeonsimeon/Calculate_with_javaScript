@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,tr,th,td{
+        border: solid 1px;
+        border-collapse: collapse;
+    }
+    table{
+        height: auto;
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    input{
+        height: 27px;
+        width: 200px;
+        margin-right: 10px;
+        margin-top: 150px;
+    }
+    #social{
+        margin-top: 40px;
+    }
+    button{
+        padding: 10px 25px 10px 25px;
+        background-color: rgb(21, 100, 173);
+        border: 2px solid rgb(98, 169, 228);
+        color: white;
+        border-radius: 7px;
+    }
+    #btn1{
+        opacity: 0;
+    }
+</style>
+<body>
+    <table id="table">
+        <tr>
+            <th>Name</th>
+            <th>Tamil</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Social</th>
+            <th>Total</th>
+            
+            <th>Average</th>
+            <th>Action</th>
+        </tr>
+    </table>
+    <label for="">Name:</label><input type="text" id="name">
+    <label for="">Tamil:</label><input type="number" id="tamil">
+    <label for="">English:</label><input type="number" id="english">
+    <label for="">Maths:</label><input type="number" id="maths">
+    <label for="">Science:</label><input type="number" id="science">
+    <label for="">Social:</label><input type="number" id="social">
+    
+    <button id="btn">Update</button>
+    <button id="btn1">Change</button>
+    <script src="script.js"></script>
+</body>
+</html>
